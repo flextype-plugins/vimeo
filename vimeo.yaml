@@ -1,0 +1,13 @@
+name: Vimeo
+version: 1.0.0
+description: "Vimeo plugins allows you to insert Vimeo videos into the page."
+author:
+  name: Sergey Romanenko
+  email: awilum@yandex.ru
+  url: http://flextype.org
+homepage: https://github.com/flextype-plugins/vimeo
+bugs: https://github.com/flextype-plugins/vimeo/issues
+license: MIT
+
+# Plugin settings
+enabled: true
