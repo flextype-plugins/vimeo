@@ -20,7 +20,7 @@ use Flextype\Component\Event\Event;
 Event::addListener('onShortcodesInitialized', function () {
 
     // Shortcode: [vimeo id="212294393"]
-    Content::shortcode()->addHandler('vimeo', function(ShortcodeInterface $s) {
+    Entries::shortcode()->addHandler('vimeo', function(ShortcodeInterface $s) {
         return vimeo($s->getParameter('id'),
                      ((null !== $s->getParameter('width')) ? $s->getParameter('width') : 560 ),
                      ((null !== $s->getParameter('height')) ? $s->getParameter('height') : 315 ));
